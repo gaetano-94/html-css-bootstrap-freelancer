@@ -14,16 +14,28 @@
     />
     <!-- /BOOTSTRAP LINK -->
 
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- /FONT AWESOME -->
+
     <!-- my CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- /my CSS -->
   </head>
   <body>
     <!-- HEADER -->
-    <header class="gp-bg-primary px-5">
-      <nav class="navbar navbar-expand-md">
+    <header class="gp-bg-primary px-5 text-uppercase">
+      <nav class="navbar navbar-expand-md navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
+          <a class="navbar-brand text-white" href="#"
+            ><strong>Start Bootstrap</strong></a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -58,17 +70,28 @@
     <!-- MAIN -->
     <main>
       <!-- SEZIONE 1 -->
-      <section class="bg-success">
-        <div class="container p-3 text-white">
-          <div class="row text-center">
-            <div class="col-12">
-              <img src="" alt="" />
-              <h2><strong>Start Bootstrap</strong></h2>
+      <section class="gp-bg-green text-uppercase">
+        <div class="container px-5 text-white">
+          <div class="row flex-column py-3">
+            <div
+              class="col col-md-8 col-lg-8 d-flex flex-column justify-content-center align-items-center m-auto"
+            >
+              <img src="img/avatar.svg" class="w-50" alt="jumbo" />
+              <h2 class="py-3 gp-fz-40">
+                <strong>Start Bootstrap</strong>
+              </h2>
             </div>
-            <div class="col-12 gp-style-text">
-              <span
-                ><strong>Graphic Artis-Web Designer-Illustrator</strong></span
+            <div class="text-center pb-3 gp-fz-30">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="col col-md-8 col-lg-8 m-auto">
+              <ul
+                class="gp-ul d-flex justify-content-center align-items-center"
               >
+                <li>Graphic artist-</li>
+                <li>Web designer-</li>
+                <li>illustrator</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -185,5 +208,13 @@
       <!-- /SEZIONE 2 -->
     </footer>
     <!-- /FOOTER -->
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- /BOOTSTRAP JS -->
   </body>
 </html>

@@ -8,6 +8,21 @@ COMMON
 .gp-bg-secondary {
   background-color: #3a546d;
 }
+
+.gp-bg-green {
+  background-color: #1abc9c;
+}
+
+.gp-fz-30 {
+  font-size: 30px;
+}
+
+.gp-fz-40 {
+  font-size: 40px;
+}
 /*
 UTILITIES
 */
+.gp-ul {
+  list-style: none;
+}
