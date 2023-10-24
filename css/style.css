@@ -34,3 +34,11 @@ UTILITIES
 .gp-ul {
   list-style: none;
 }
+
+.gp-btn {
+  font-style: none;
+  border: none;
+  color: white;
+  background-color: #1abc9c;
+  border: 1px solid white;
+}
